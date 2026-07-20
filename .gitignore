@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# large data files GitHub won't accept
+DataAnalysis/data/denver_crime.csv
+DataAnalysis/data/nuforc_reports.csv
+DataAnalysis/data/crime.csv
+DataAnalysis/data/pollution.csv
