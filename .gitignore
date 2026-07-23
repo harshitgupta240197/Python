@@ -1,9 +1,15 @@
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
+.venv/
+venv/
 
-# large data files GitHub won't accept
-DataAnalysis/data/denver_crime.csv
-DataAnalysis/data/nuforc_reports.csv
-DataAnalysis/data/crime.csv
-DataAnalysis/data/pollution.csv
+# Data files - keep local, never commit
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.zip
